@@ -1,0 +1,334 @@
+html{
+    font: 12px '宋体';
+}
+a{
+    color: #000;
+}
+.top{
+    background-color: #f7f7f7;
+    height: 26px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.top_page{
+    width: 970px;
+    height: 26px;
+    margin: 0 auto;
+}
+.top_page_l{
+    line-height: 26px;
+}
+.top_page_r ul li{
+    float: left;
+    padding-right: 10px;
+    line-height: 26px;
+}
+.top_page_r ul li s{
+    width: 12px;
+    height: 12px;
+    background: url("../image/sprite.png");
+    display: inline-block;
+}
+
+.logo{
+    width: 970px;
+    height: 98px;
+    margin: 0 auto;
+}
+.logo_l{
+    width: 200px;
+    height: 55px;
+    background: url("../image/logo.png") no-repeat;
+    margin: 24px 0px 19px 9px;
+    /*将文字隐藏，提交搜索概率*/
+    text-indent: -1000em;
+}
+.logo_r{
+    width: 530px;
+    height: 42px;
+    line-height: 98px;
+    margin-top: 29px;
+    border: 1px solid #c9c9c9;
+}
+.logo_r_search{
+    width: 418px;
+    height: 28px;
+    border: 1px solid #c9c9c9;
+}
+.logo_r_btn{
+    width: 98px;
+    height: 28px;
+    border: 1px solid #c9c9c9;
+    background-color: #2f70d0;
+    color: white;
+}
+.logo_r_content{
+    margin: 5px 5px 5px 4px;
+}
+.nav{
+    width: 970px;
+    height: 25px;
+    margin: 0 auto;
+    border-bottom: 1px solid #2f70d0;
+}
+.nav ul li{
+    float: left;
+    line-height: 25px;
+    padding: 0px 15px 0px 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav ul li a{
+    color: #2f70d0;
+}
+.nav li:hover{
+    background-color: #2f70d0;
+}
+.nav li:hover a{
+    color: white;
+}
+.banner{
+    width: 970px;
+    height: 210px;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+.subNav{
+    width: 200px;
+    height: 210px;
+    margin-right: 10px;
+}
+.ad{
+    width: 411px;
+    height: 210px;
+    overflow: hidden;
+}
+.ad img{
+    float: left;
+}
+@keyframes switch {
+    0%{
+        margin-left: 0;
+    }
+    25%{
+        margin-left: -411px;
+    }
+    50%{
+        margin-left: -822px;
+    }
+    75%{
+        margin-left: -1233px;
+    }
+    100%{
+        margin-left: -1644px;
+    }
+}
+.ad .photo_lunbo{
+    width: 2080px;
+    animation: switch 10s ease-in-out 1s infinite alternate;
+}
+.message{
+    width: 230px;
+    height: 210px;
+}
+.subNav h2{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #2f70d0;
+    color: white;
+    padding-left: 20px;
+}
+.subNav s{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-left: 9px;
+}
+.subNav li:nth-child(1) s{
+    background: url("../image/sprite.png")0px -20px no-repeat;
+}
+.subNav li:nth-child(2) s{
+    background: url("../image/sprite.png")0px -52px no-repeat;
+}
+.subNav li:nth-child(3) s{
+    background: url("../image/sprite.png")0px -85px no-repeat;
+}
+.subNav li:nth-child(4) s{
+    background: url("../image/sprite.png")0px -116px no-repeat;
+}
+.subNav li:nth-child(5) s{
+    background: url("../image/sprite.png")0px -148px no-repeat;
+}
+.subNav li:nth-child(6) s{
+    background: url("../image/sprite.png")0px -179px no-repeat;
+}
+.subNav li{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.subNav li a{
+    padding-left: 15px;
+}
+.subNav ul{
+    background-color: #ebf0f6;
+    height: 180px;
+}
+
+.message_top{
+    height: 95px;
+    border: 1px solid #dddddd;
+    background-color: #f7faff;
+    margin-bottom: 21px;
+}
+.message_top s{
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    background: url("../image/dazhong.png") no-repeat;
+    margin: 20px 10px 0 10px;
+}
+.message_bottom{
+    height: 92px;
+    background-color: #f7f7f7;
+}
+.message_top .fw{
+    font-weight: bold;
+    padding: 7px 0 0 18px;
+}
+.message_top .cheap{
+    margin-top: 27px;
+}
+.message_bottom s{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background: url("../image/sprite.png") 0 -210px no-repeat;
+    vertical-align: middle;
+}
+.findMessage{
+    text-align: center;
+    font-size: 14px;
+    padding-top: 11px;
+}
+.phone{
+    text-align: center;
+    color: #3f9ce0;
+    margin-top: 10px;
+}
+.message_bottom .btn{
+    margin: 9px 0 0 75px;
+    border: 0;
+    width: 82px;
+    height: 24px;
+    background: url("../image/qq.png")no-repeat -2px -2px;
+}
+.material{
+    width: 950px;
+    height: 34px;
+    border-top: 2px solid #c3d7e4;
+    margin: 14px auto 0;
+    line-height: 34px;
+    background-color: #ecf1f7;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.product{
+    width: 970px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.product .product_l{
+    width: 730px;
+    height: 350px;
+    overflow: hidden;
+    border: 1px solid #d8d8d8;
+}
+.product .product_l ul li{
+    display: inline-block;
+    width: 350px;
+    height: 170px;
+}
+.product .product_l .product_l_top s{
+    display: inline-block;
+    width: 100px;
+    height: 101px;
+    background: url("../image/yijia.png");
+    margin: 0 0 15px 27px;
+}
+.product_l .product_l_top{
+    margin-top: 27px;
+    height: 120px;
+}
+.product_l_top_r{
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.product_l .product_l_top .daily{
+    width: 110px;
+    padding-top: 12px;
+}
+.product_l .product_l_top h3{
+    color: red;
+    font-weight: bold;
+    padding-top: 18px;
+}
+.product_l .product_l_top .price{
+    margin-left: 5px;
+    padding-top: 18px;
+    text-decoration: line-through;
+}
+.product_l .product_l_bottom s{
+    display: inline-block;
+    width: 99px;
+    height: 26px;
+    margin-left: 27px;
+    background: url("../image/goumai.png") no-repeat;
+}
+.product_l .product_l_bottom div{
+    padding-top: 8px;
+    padding-left: 8px;
+    float: left;
+}
+.product_l .product_l_bottom div b{
+    color: red;
+}
+.product .product_r{
+    width: 230px;
+    height: 350px;
+    border: 1px solid #d8d8d8;
+}
+.product_r_top{
+    height: 30px;
+    background-color: #fbfbfb;
+    line-height: 30px;
+    padding-left: 15px;
+}
+.product_r_bottom ul{
+    padding-top: 17px;
+}
+.product_r_bottom ul li{
+    list-style: square inside url("../image/listStyle.png");
+    height: 24px;
+    margin-left: 10px;
+}
+.friend_url{
+    width: 970px;
+    height: 105px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 3px solid #0a7ec3;
+    margin: 10px auto;
+    line-height: 105px;
+    text-align: center;
+}
+.about_us{
+    height: 105px;
+    width: 970px;
+    margin: 0 auto;
+}
+.about_us p{
+    text-align: center;
+    margin-top: 10px;
+}
